@@ -1,0 +1,48 @@
+body {
+  background-image: url(ice.jpg)
+}
+
+#title {
+  width: 100%;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 16px;
+  padding-bottom: 5px;
+}
+
+h1 {
+  font-family: "Cartoon Blocks Christmas";
+  font-size: 120px;
+}
+
+#description {
+  text-align: center;
+}
+
+h2 {
+  font-family: "Iceberg";
+  font-size: 65px;
+}
+
+#converter {
+  text-align: center;
+}
+
+.basic-text {
+  font-size: 30px;
+}
+
+#easter-egg {
+  width: 25%;
+  height: 40px;
+  position: fixed;
+  bottom: 0;
+  border-radius: 25px;
+}
+
+#easter-egg:hover {
+  opacity: 0.5;
+  background-color: white;
+  transition: .3s;
+}

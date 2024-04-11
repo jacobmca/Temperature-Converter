@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<header>
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="tempconvert.css"</link>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Iceberg&display=swap" rel="stylesheet">
+</header>
+<body>
+<div id="title">
+  <h1>Temperature Converter</h1>
+</div>
+<br>
+<div id="description">
+  <h2>Celsius to Fahrenheit</h2>
+</div>
+<div id="converter">
+  <p>
+  <label class="basic-text">Enter Celsius:</label>
+  <input id="inputKG" type="number" placeholder="Celsius" oninput="CtoFConverter(this.value)" onchange="CtoFConverter(this.value)">
+  </p>
+  <p class="basic-text">Fahrenheit: <span class="fahrenheit"></span></p>
+  <script>
+    function CtoFConverter(temp) {
+      document.querySelector(".fahrenheit").innerHTML=(temp-32)/1.8;
+    }
+  </script>
+</div>
+<a target="_blank" href="https://www.youtube.com/watch?v=YkTHtWX7CCY">
+<div id="easter-egg">
+</div>
+</a>
+</body>
+</html>
